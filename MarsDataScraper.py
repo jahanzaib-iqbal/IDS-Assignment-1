@@ -27,9 +27,8 @@ for row in table.find_all("tr"):
         column2_data = columns[1].get_text(strip=True)
         data.append([column1_data, column2_data])
 
-# Get the directory of the current script
-script_dir = os.path.dirname(os.path.realpath(__file__))
-csv_file_path = os.path.join(script_dir, "mars_facts.csv")
+csv_file_path = "mars_facts.csv"
+
 # Write data to the CSV file
 with open(csv_file_path, mode='w', newline='', encoding='utf-8-sig') as file:
     writer = csv.writer(file)
