@@ -5,7 +5,6 @@
 # code for a web scraper in Python  to extract the MARS PLANET PROFILE from the given website and export it to a CSV file (tabular format).
 
 
-import os
 import requests
 from bs4 import BeautifulSoup
 import csv
