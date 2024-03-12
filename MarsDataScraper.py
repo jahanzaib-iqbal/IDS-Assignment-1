@@ -32,7 +32,7 @@ csv_file_path = "mars_facts.csv"
 with open(csv_file_path, mode='w', newline='', encoding='utf-8-sig') as file:
     writer = csv.writer(file)
     # Write header
-    writer.writerow(['MARS PLANET PROFILE'])
+    writer.writerow(['MARS PLANET PROFILE',''])
     writer.writerow(['Attribute', 'Value'])
     # Write data rows
     writer.writerows(data)
