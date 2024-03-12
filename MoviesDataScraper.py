@@ -8,7 +8,6 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-import os
 
 url = 'https://www.imdb.com/chart/top/'
 
