@@ -52,8 +52,7 @@ data = {"movie_title": movie_title,
 
 
 
-script_dir = os.path.dirname(os.path.realpath(__file__))
-csv_file_path = os.path.join(script_dir, "Movies_Data.csv")
+csv_file_path = "Movies_Data.csv"
 
 # Writing data to CSV
 with open(csv_file_path, 'w', newline='', encoding='utf-8-sig') as csvfile:  # Change encoding to 'utf-8-sig'
